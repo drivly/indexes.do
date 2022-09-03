@@ -7,9 +7,9 @@ export default {
     const target = req.url.replace(hostname + '/','')
     const data = await fetch(target, req).then(res => res.json())
     
-    const indexes = Object.entries(flatten(data, { safe: true })).reduce((acc, [key, value]) => ({...acc, [`${key}: ${value} -> ${target}`]: target }), {})
+    const indexes = Object.entries(flatten(data, { safe: true }))
+                          .reduce((acc, [key, value]) => ({...acc, [`${key}: ${value} -> ${target}`]: target }), {})
 
-    
     return new Response(JSON.stringify({
       api: {
         icon: '🔎',
