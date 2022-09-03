@@ -1,3 +1,5 @@
+import flatten from 'flat'
+
 export default {
   fetch: async (req, env) => {
     const {origin, hostname, pathname, search, hash} = new URL(req.url)
