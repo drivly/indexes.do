@@ -4,10 +4,10 @@ export default {
     const data = await fetch(req.url.replace(hostname + '/',''), req).then(res => res.json())
     
     return new Response(JSON.stringify({
-    api: {
-    },
-    data,
-    user,
+      api: {
+      },
+      data,
+      user,
     }))
   }
 }
