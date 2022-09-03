@@ -2,6 +2,7 @@ import flatten from 'flat'
 
 export default {
   fetch: async (req, env) => {
+    const {user} = await env.CTX.fetch(req).then(res => res.json())
     const {origin, hostname, pathname, search, hash} = new URL(req.url)
     const target = req.url.replace(hostname + '/','')
     const data = await fetch(target, req).then(res => res.json())
