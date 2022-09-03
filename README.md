@@ -17,8 +17,8 @@ the indexes are created as:
 
 ```
 {
-  "Categories.entityId:000000000001": "https://database.do/Categories/1",
-  "Categories.description:Sweet and savory sauces, relishes, spreads, and seasonings": "https://database.do/Categories/1",
-  "Categories.categoryName:Condiments": "https://database.do/Categories/1"
+  "Categories.entityId: 000000000001 -> Categories/1": "https://database.do/Categories/1",
+  "Categories.description: Sweet and savory sauces, relishes, spreads, and seasonings -> Categories/1": "https://database.do/Categories/1",
+  "Categories.categoryName: Condiments -> Categories/1": "https://database.do/Categories/1"
 }
 ```
