@@ -1,6 +1,8 @@
 # indexes.do
 Durable Object Data Indexing Service
 
+<http://indexes.do/json.path.do/$.data/wikis.do/Porsche>
+
 ```
 {
   Categories: [
