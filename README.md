@@ -1,5 +1,4 @@
-# indexes.do
-Durable Object Data Indexing Service
+# Indexes.do - Data Indexing API for Durable Objects
 
 <http://indexes.do/json.path.do/$.data/wikis.do/Porsche>
 
